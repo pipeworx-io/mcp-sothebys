@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/sothebys",
+  "title": "Sothebys",
+  "description": "Sotheby's MCP — realized auction prices from sothebys.com.",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/sothebys",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-sothebys",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/sothebys/mcp"
+    }
+  ]
+}
